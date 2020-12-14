@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background: linear-gradient(to right,#61b15a, #adce74,#fff76a);
+}
+.resume_CV{
+  width: 800px;
+  background: #e6e6e6;
+  margin: 25px auto;
+  display: flex;
+}
+/* this is part left*/
+.left{
+  background: #d0e8f2;
+  width: 240px;
+  padding: 0 25px;
+}
+.right{
+  width: calc(100% -250px);
+}
+.left .image_shkib{
+  text-align:center;
+  padding: 20px 0;
+
+  }
+.left .image_shkib img{
+  width: 200px;
+  border-radius: 30px;
+
+}
+.gh{
+  padding-bottom: 20px;
+}
+.title{
+  color: #222831;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px.
+
+}
+.esme{
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 250px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+
+}
+.title:before{
+
+}
+.left .icon{
+  font-size: 35px;
+  color:#db6400;
+
+}
+.left .text{
+  color: #9153c9;
+  font-size: 11px;
+  text-transform: uppercase;
+
+}
+.contact .list{
+  align-items: center;
+  display: flex;
+  width: 100px;
+  margin: 15px;
+
+}
+.contact .list .icon{
+  border-radius: 15px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.contact .list .text{
+  width: calc(100 -50px);
+
+}
+.formation,
+.intérèt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+
+}
+.formation .list,
+.intérèt .list{
+  width: 60px;
+  height:60px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/* this is part right */
+.head{
+  background: #d0e8f2;
+  width: 560px;
+  height: 0 5px;
+  color:#9153c9;
+  height: 240px;
+
+}
+
+.head .information{
+  color: #222831;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  margin-bottom: 20px.
+
+
+}
+.head .about{
+  margin-top: 20px;
+  line-height: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+}
+.right_text .t_formation{
+  margin-top: 30px;
+}
+.right_text .list{
+  display: flex;
+  margin-bottom: 10px;
+  font-style: italic;
+
+}
+.right_text .list .date{
+  width: 120px;
+  color:#9153c9;
+  font-size: 20px;
+}
+.right_text .list .info{
+  width: calc(100% - 120px;)
+  position:relative;
+}
+.right_text .list .info_title{
+  text-transform: uppercase;
+  font-weight: 700px;
+  letter-spacing: 2px;
+  color:#9153c9;
+}
+.title-etat{
+  color: #222831;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px.
+
+}
+.text_etat{
+  line-height: 35px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 15px;
+  color:#9153c9;
+
+}
+.uni{
+  padding-bottom: 20px;
+}
+@@media only screen and (max-width:900px)
+{
+  .wrapper
+  {
+    width: 100%;
+    overflow:inherit;
+  }
+  .image_shekib{
+    width: 100%;
+  }
+
+}
